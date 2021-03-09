@@ -1,0 +1,61 @@
+html {
+  background: #292c34;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 200px;
+  border: 2px solid #6de5fa;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 150px auto;
+}
+
+.App > div {
+  width: 100%;
+}
+
+.App .Buttons {
+  border: 2px solid #6de5fa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Scoreboard {
+  background: #6de5fa;
+  color: #292c34;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.ScoreboardRed {
+  color: red;
+}
+
+.Button {
+  background: #6de5fa;
+  color: #292c34;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Button:active {
+  background: #292c34;
+  color: #6de5fa;
+}
+
+.Button:nth-child(1) {
+  margin-right: 10px;
+}
+
+.Button[disabled] {
+  opacity: 0.2;
+}
